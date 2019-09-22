@@ -725,6 +725,8 @@
      margin-top:99px;
 }
  #v-card-holder #v-card .infos .profile-list{
+    list-style-type: none;
+    padding-left: 0px;
 }
  #v-card-holder #v-card .infos .profile-list .title{
      display:block;
@@ -1012,4 +1014,36 @@
      .timeline-block .timeline-content .timeline-info h6 small{
          color:inherit;
     }
-     
+}
+
+.progress {
+    height: .25rem !important;
+    background-color: #343a4036 !important;
+}
+
+.progress-bar {
+    background-color: #ffffff !important;
+}
+
+
+@media (max-width: 992px) {
+   #v-card-holder #v-card {
+       height: 300px !important;
+   }
+}
+#v-card-holder #v-card .infos .profile-list .title i {
+    font-size: 20px !important;
+}
+
+#v-card-holder #v-card .infos .profile-list .content {
+    font-size: 17px !important;
+}
+
+.profile-list .title {
+    font-size: 17px !important;
+    margin-bottom: 2px;
+}
+
+#v-card-holder #v-card .info-headings h4 {
+    font-size: 36px !important;
+}
